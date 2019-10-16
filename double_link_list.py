@@ -78,6 +78,48 @@ class DoubleLinkList(object):
                 cur = cur.next
                 count += 1
             node.next = cur.next
+            node.prev = cur
+            cur.next.prev = node
             cur.next = node
 
+    def search(self, item):
+        """Search the Node from single list"""
 
+        cur = self.__head
+        if cur.elem == item:
+            return True
+        while cur is not None:
+            if cur.elem == item:
+                return True
+            else:
+                cur = cur.next
+        return False
+
+    def remove(self, item):
+        """Remove the item Node."""
+
+        cur = self.__head
+        while cur is not None:
+            if cur.elem == item:
+                if cur == self.__head:  # If the item is the first Node
+                    self.__head = cur.next
+                    if cur.next:  # If the list just has one Node
+                        cur.next.prev = None
+                else:
+                    cur.prev.next = cur.next
+                    if cur.next:  # If the removing node is the last Node
+                        cur.next.prev = cur.prev
+                break
+            else:
+                cur = cur.next
+
+
+if __name__ == '__main__':
+    single_list = DoubleLinkList()
+    for i in range(1, 4):
+        single_list.append(i)
+    single_list.travel()
+    single_list.insert(-1, 500)
+    single_list.travel()
+    single_list.remove(3)
+    single_list.travel()
