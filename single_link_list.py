@@ -2,7 +2,7 @@
 # _*_coding:utf-8 _*_
 # @Time    :2019/10/15 14:17
 # @Author  :WuQilong
-# @FileName: single_list.py
+# @FileName: single_link_list.py
 
 class Node(object):
     """Define the Node class."""
@@ -21,14 +21,14 @@ class SingleLinkList(object):
     def is_empty(self):
         """Judge the single list is empty."""
 
-        return self.__head == None
+        return self.__head is None
 
     def length(self):
         """Get the single list length."""
 
         cur = self.__head  # cur is used to traversing nodes
         count = 0
-        while cur != None:
+        while cur is not None:
             count += 1
             cur = cur.next
         return count
@@ -49,7 +49,7 @@ class SingleLinkList(object):
             self.__head = node
         else:
             cur = self.__head
-            while cur.next != None:
+            while cur.next is not None:
                 cur = cur.next
             cur.next = node
 
@@ -69,13 +69,13 @@ class SingleLinkList(object):
             self.add(item)
         else:
             node = Node(item)
-            pre = self.__head
+            cur = self.__head
             count = 1
             while count < pos:
-                pre = pre.next
+                cur = cur.next
                 count += 1
-            node.next = pre.next
-            pre.next = node
+            node.next = cur.next
+            cur.next = node
 
     def search(self, item):
         """Search the Node from single list"""
@@ -83,7 +83,7 @@ class SingleLinkList(object):
         cur = self.__head
         if cur.elem == item:
             return True
-        while cur != None:
+        while cur is not None:
             if cur.elem == item:
                 return True
             else:
@@ -95,7 +95,7 @@ class SingleLinkList(object):
 
         cur = self.__head
         pre = None
-        while cur != None:
+        while cur is not None:
             if cur.elem == item:
                 if cur == self.__head:  # If the item is the first Node
                     self.__head = cur.next
@@ -112,5 +112,5 @@ if __name__ == '__main__':
     for i in range(1, 4):
         single_list.append(i)
     single_list.travel()
-    single_list.remove(2)
+    single_list.insert(1, 5)
     single_list.travel()
