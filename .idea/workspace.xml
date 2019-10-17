@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_cycle_link_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_cycle_link_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_link_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_link_list.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single_cycle_link_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+            <state relative-caret-position="552">
+              <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -27,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single_link_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="106" column="30" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="106" selection-end-column="30" />
+            <state relative-caret-position="252">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -60,6 +62,7 @@
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/single_list.py" />
         <option value="$PROJECT_DIR$/double_link_list.py" />
+        <option value="$PROJECT_DIR$/single_link_list.py" />
         <option value="$PROJECT_DIR$/single_cycle_link_list.py" />
       </list>
     </option>
@@ -119,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.double_link_list">
+  <component name="RunManager" selected="Python.single_cycle_link_list">
     <configuration name="double_link_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +136,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/double_link_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="single_cycle_link_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/single_cycle_link_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.single_cycle_link_list" />
         <item itemvalue="Python.double_link_list" />
         <item itemvalue="Python.single_list" />
       </list>
@@ -203,18 +228,18 @@
     <frame x="69" y="-8" width="1859" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.17508233" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.17508233" />
       <window_info id="Structure" order="1" sideWeight="0.50078005" side_tool="true" weight="0.17527473" />
       <window_info id="Favorites" order="2" sideWeight="0.50078005" side_tool="true" weight="0.17527473" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21536796" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21489362" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17553191" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49944994" visible="true" weight="0.2861702" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49944994" weight="0.2861702" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50055003" side_tool="true" weight="0.34415585" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -238,15 +263,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single_link_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="106" column="30" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="106" selection-end-column="30" />
+        <state relative-caret-position="252">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single_cycle_link_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+        <state relative-caret-position="552">
+          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
         </state>
       </provider>
     </entry>

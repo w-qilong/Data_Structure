@@ -37,7 +37,7 @@ class SingleLinkList(object):
         """Travel the single list."""
 
         cur = self.__head
-        while cur != None:
+        while cur is not None:
             print(cur.elem, end=" ")
             cur = cur.next
 

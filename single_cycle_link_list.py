@@ -41,7 +41,7 @@ class SingleCycleLinkList(object):
         """Travel the single list."""
 
         cur = self.__head
-        while cur is not self.__head:
+        while cur.next is not self.__head:
             print(cur.elem, end=" ")
             cur = cur.next
         print(cur.elem, end=" ")  # Print the last Node
@@ -72,8 +72,9 @@ class SingleCycleLinkList(object):
             cur = self.__head
             while cur.next is not self.__head:
                 cur = cur.next
-            node.next = cur.next
+
             cur.next = node
+            node.next = self.__head
 
     def insert(self, pos, item):
         """Insert a Node to the specified location."""
@@ -110,15 +111,38 @@ class SingleCycleLinkList(object):
     def remove(self, item):
         """Remove the item Node."""
 
+        if self.is_empty():
+            return
         cur = self.__head
         pre = None
-        while cur is not self.__head :
+        while cur.next is not self.__head:
             if cur.elem == item:
                 if cur == self.__head:  # If the item is the first Node
+                    rear = self.__head
+                    while rear.next is not self.__head:
+                        rear = rear.next
                     self.__head = cur.next
-                else:
+                    rear.next = self.__head
+                else:  # If the Node is middle Node
                     pre.next = cur.next
-                break
+                return
             else:
                 pre = cur
                 cur = cur.next
+        if cur.elem == item:  # If the node is the last one
+            if cur == self.__head:  # If the node just has one Node
+                self.__head = None
+            else:
+                pre.next = cur.next
+
+
+if __name__ == '__main__':
+    single_list = SingleCycleLinkList()
+    for i in range(1, 4):
+        single_list.append(i)
+    single_list.travel()
+    single_list.add(4)
+    single_list.travel()
+    print(single_list.search(1))
+    single_list.remove(1)
+    single_list.travel()
