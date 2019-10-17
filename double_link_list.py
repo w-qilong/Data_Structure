@@ -2,7 +2,7 @@
 # _*_coding:utf-8 _*_
 # @Time    :2019/10/16 18:54
 # @Author  :WuQilong
-# @FileName: double_link_list.py
+# @FileName: double_link_list.py 双向链表
 
 class Node(object):
     """Define the Node."""

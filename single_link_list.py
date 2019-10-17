@@ -2,7 +2,7 @@
 # _*_coding:utf-8 _*_
 # @Time    :2019/10/15 14:17
 # @Author  :WuQilong
-# @FileName: single_link_list.py
+# @FileName: single_link_list.py 单向链表
 
 class Node(object):
     """Define the Node class."""

@@ -2,7 +2,7 @@
 # _*_coding:utf-8 _*_
 # @Time    :2019/10/17 19:04
 # @Author  :WuQilong
-# @FileName: single_cycle_link_list.py
+# @FileName: single_cycle_link_list.py 单向循环链表
 
 class Node(object):
     """Define the Node class."""
