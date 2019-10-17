@@ -137,12 +137,12 @@ class SingleCycleLinkList(object):
 
 
 if __name__ == '__main__':
-    single_list = SingleCycleLinkList()
+    single_cycle = SingleCycleLinkList()
     for i in range(1, 4):
-        single_list.append(i)
-    single_list.travel()
-    single_list.add(4)
-    single_list.travel()
-    print(single_list.search(1))
-    single_list.remove(1)
-    single_list.travel()
+        single_cycle.append(i)
+    single_cycle.travel()
+    single_cycle.add(4)
+    single_cycle.travel()
+    print(single_cycle.search(1))
+    single_cycle.remove(1)
+    single_cycle.travel()
