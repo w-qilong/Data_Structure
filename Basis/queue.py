@@ -4,6 +4,7 @@
 # @Author  :WuQilong
 # @FileName: queue.py 队列
 
+
 class Queue(object):
     """Define the Queue"""
 

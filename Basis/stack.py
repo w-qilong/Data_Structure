@@ -4,6 +4,7 @@
 # @Author  :WuQilong
 # @FileName: stack.py 栈
 
+
 class Stack(object):
     """Define the Stack class."""
 

@@ -1,20 +1,20 @@
 #!/usr/bin/python3
 # _*_coding:utf-8 _*_
-# @Time    :2019/10/16 18:54
+# @Time    :2019/10/15 14:17
 # @Author  :WuQilong
-# @FileName: double_link_list.py 双向链表
+# @FileName: single_link_list.py 单向链表
+
 
 class Node(object):
-    """Define the Node."""
+    """Define the Node class."""
 
-    def __init__(self, item=None):
-        self.elem = item
-        self.prev = None
+    def __init__(self, elem):
+        self.elem = elem
         self.next = None
 
 
-class DoubleLinkList(object):
-    """Define the double link list."""
+class SingleLinkList(object):
+    """Define the single list class."""
 
     def __init__(self, node=None):
         self.__head = node
@@ -42,14 +42,6 @@ class DoubleLinkList(object):
             print(cur.elem, end=" ")
             cur = cur.next
 
-    def add(self, item):
-        """Add a Node to the head."""
-
-        node = Node(item)
-        node.next = self.__head
-        self.__head = node
-        node.next.prev = node
-
     def append(self, item):
         """Add a Node to the tail."""
 
@@ -61,7 +53,13 @@ class DoubleLinkList(object):
             while cur.next is not None:
                 cur = cur.next
             cur.next = node
-            node.prev = cur
+
+    def add(self, item):
+        """Add a Node to the head."""
+
+        node = Node(item)
+        node.next = self.__head
+        self.__head = node
 
     def insert(self, pos, item):
         """Insert a Node to the specified location."""
@@ -78,8 +76,6 @@ class DoubleLinkList(object):
                 cur = cur.next
                 count += 1
             node.next = cur.next
-            node.prev = cur
-            cur.next.prev = node
             cur.next = node
 
     def search(self, item):
@@ -99,27 +95,23 @@ class DoubleLinkList(object):
         """Remove the item Node."""
 
         cur = self.__head
+        pre = None
         while cur is not None:
             if cur.elem == item:
                 if cur == self.__head:  # If the item is the first Node
                     self.__head = cur.next
-                    if cur.next:  # If the list just has one Node
-                        cur.next.prev = None
                 else:
-                    cur.prev.next = cur.next
-                    if cur.next:  # If the removing node is the last Node
-                        cur.next.prev = cur.prev
+                    pre.next = cur.next
                 break
             else:
+                pre = cur
                 cur = cur.next
 
 
 if __name__ == '__main__':
-    single_list = DoubleLinkList()
+    single_list = SingleLinkList()
     for i in range(1, 4):
         single_list.append(i)
     single_list.travel()
-    single_list.insert(-1, 500)
-    single_list.travel()
-    single_list.remove(3)
+    single_list.insert(1, 5)
     single_list.travel()

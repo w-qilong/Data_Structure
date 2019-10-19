@@ -4,6 +4,7 @@
 # @Author  :WuQilong
 # @FileName: double_ended_queue.py 双端队列
 
+
 class Dequeue(object):
     """Define the Dequeue"""
 

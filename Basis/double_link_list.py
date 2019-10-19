@@ -1,24 +1,24 @@
 #!/usr/bin/python3
 # _*_coding:utf-8 _*_
-# @Time    :2019/10/17 19:04
+# @Time    :2019/10/16 18:54
 # @Author  :WuQilong
-# @FileName: single_cycle_link_list.py 单向循环链表
+# @FileName: double_link_list.py 双向链表
+
 
 class Node(object):
-    """Define the Node class."""
+    """Define the Node."""
 
-    def __init__(self, elem):
-        self.elem = elem
+    def __init__(self, item=None):
+        self.elem = item
+        self.prev = None
         self.next = None
 
 
-class SingleCycleLinkList(object):
-    """Define the single cycle link list."""
+class DoubleLinkList(object):
+    """Define the double link list."""
 
     def __init__(self, node=None):
         self.__head = node
-        if node:
-            node.next = node
 
     def is_empty(self):
         """Judge the single list is empty."""
@@ -28,11 +28,9 @@ class SingleCycleLinkList(object):
     def length(self):
         """Get the single list length."""
 
-        if self.is_empty():
-            return 0
         cur = self.__head  # cur is used to traversing nodes
-        count = 1
-        while cur.next is not self.__head:
+        count = 0
+        while cur is not None:
             count += 1
             cur = cur.next
         return count
@@ -41,25 +39,17 @@ class SingleCycleLinkList(object):
         """Travel the single list."""
 
         cur = self.__head
-        while cur.next is not self.__head:
+        while cur is not None:
             print(cur.elem, end=" ")
             cur = cur.next
-        print(cur.elem, end=" ")  # Print the last Node
 
     def add(self, item):
         """Add a Node to the head."""
 
         node = Node(item)
-        if self.__head is None:
-            self.__head = node
-            node.next = Node
-        else:
-            cur = self.__head
-            while cur.next is not self.__head:
-                cur = cur.next
-            node.next = self.__head
-            self.__head = node
-            cur.next = node
+        node.next = self.__head
+        self.__head = node
+        node.next.prev = node
 
     def append(self, item):
         """Add a Node to the tail."""
@@ -67,14 +57,12 @@ class SingleCycleLinkList(object):
         node = Node(item)
         if self.is_empty():
             self.__head = node
-            node.next = node
         else:
             cur = self.__head
-            while cur.next is not self.__head:
+            while cur.next is not None:
                 cur = cur.next
-
             cur.next = node
-            node.next = self.__head
+            node.prev = cur
 
     def insert(self, pos, item):
         """Insert a Node to the specified location."""
@@ -91,6 +79,8 @@ class SingleCycleLinkList(object):
                 cur = cur.next
                 count += 1
             node.next = cur.next
+            node.prev = cur
+            cur.next.prev = node
             cur.next = node
 
     def search(self, item):
@@ -99,50 +89,38 @@ class SingleCycleLinkList(object):
         cur = self.__head
         if cur.elem == item:
             return True
-        while cur is not self.__head:
+        while cur is not None:
             if cur.elem == item:
                 return True
             else:
                 cur = cur.next
-        if cur.elem is item:
-            return True
         return False
 
     def remove(self, item):
         """Remove the item Node."""
 
-        if self.is_empty():
-            return
         cur = self.__head
-        pre = None
-        while cur.next is not self.__head:
+        while cur is not None:
             if cur.elem == item:
                 if cur == self.__head:  # If the item is the first Node
-                    rear = self.__head
-                    while rear.next is not self.__head:
-                        rear = rear.next
                     self.__head = cur.next
-                    rear.next = self.__head
-                else:  # If the Node is middle Node
-                    pre.next = cur.next
-                return
+                    if cur.next:  # If the list just has one Node
+                        cur.next.prev = None
+                else:
+                    cur.prev.next = cur.next
+                    if cur.next:  # If the removing node is the last Node
+                        cur.next.prev = cur.prev
+                break
             else:
-                pre = cur
                 cur = cur.next
-        if cur.elem == item:  # If the node is the last one
-            if cur == self.__head:  # If the node just has one Node
-                self.__head = None
-            else:
-                pre.next = cur.next
 
 
 if __name__ == '__main__':
-    single_cycle = SingleCycleLinkList()
+    single_list = DoubleLinkList()
     for i in range(1, 4):
-        single_cycle.append(i)
-    single_cycle.travel()
-    single_cycle.add(4)
-    single_cycle.travel()
-    print(single_cycle.search(1))
-    single_cycle.remove(1)
-    single_cycle.travel()
+        single_list.append(i)
+    single_list.travel()
+    single_list.insert(-1, 500)
+    single_list.travel()
+    single_list.remove(3)
+    single_list.travel()
