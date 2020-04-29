@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Data_Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basis/single_link_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basis/single_link_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search_Algorithm/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search_Algorithm/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort_Algorithm/select_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort_Algorithm/select_sort.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Data_Structure" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Search_Algorithm/binary_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,56 +41,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>single_list</find>
-      <find>arr</find>
-      <find>binarySearch</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>targe</replace>
-      <replace>item</replace>
-      <replace>single_cycle</replace>
-      <replace>alist</replace>
-      <replace>binary_search</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Single_List.py" />
-        <option value="$PROJECT_DIR$/SingleList.py" />
-        <option value="$PROJECT_DIR$/single.py" />
-        <option value="$PROJECT_DIR$/single_list.py" />
-        <option value="$PROJECT_DIR$/double_link_list.py" />
-        <option value="$PROJECT_DIR$/single_link_list.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/stack.py" />
-        <option value="$PROJECT_DIR$/single_cycle_link_list.py" />
-        <option value="$PROJECT_DIR$/queue.py" />
-        <option value="$PROJECT_DIR$/double_ended_queue.py" />
-        <option value="$PROJECT_DIR$/1.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/1.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/bubble_sort.py" />
-        <option value="$PROJECT_DIR$/Basis/double_ended_queue.py" />
-        <option value="$PROJECT_DIR$/Basis/double_link_list.py" />
-        <option value="$PROJECT_DIR$/Basis/queue.py" />
-        <option value="$PROJECT_DIR$/Basis/single_cycle_link_list.py" />
-        <option value="$PROJECT_DIR$/Basis/single_link_list.py" />
-        <option value="$PROJECT_DIR$/Basis/stack.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/select_sort.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/insert_sort.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/shell_sort.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/test.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/quick_sort.py" />
-        <option value="$PROJECT_DIR$/Sort_Algorithm/merge_sort.py" />
-        <option value="$PROJECT_DIR$/Search_Algorithm/Binary_Search.py" />
-        <option value="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -93,69 +54,31 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1974" />
-    <option name="y" value="-2" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
-  </component>
+  <component name="ProjectId" id="1ayf6hrRmAa72tJLBvHk6CU5eZG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Search_Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort_Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PythonProject\Data_Structure\Basis" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.binary_tree">
-    <configuration name="Binary_Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +86,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort_Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\PythonProject\Data_Structure\Search_Algorithm\binary_search.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,6 +112,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_Algorithm/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -197,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,49 +156,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/merge_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort_Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/quick_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort_Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort_Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,9 +191,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.binary_tree" />
-        <item itemvalue="Python.Binary_Search" />
-        <item itemvalue="Python.merge_sort" />
-        <item itemvalue="Python.quick_sort" />
+        <item itemvalue="Python.binary_search" />
+        <item itemvalue="Python.11" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -280,6 +208,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571107965169</updated>
+      <workItem from="1587712586918" duration="566000" />
+      <workItem from="1587713660703" duration="3128000" />
+      <workItem from="1587773633782" duration="3785000" />
+      <workItem from="1587861314525" duration="8156000" />
+      <workItem from="1587905620335" duration="4083000" />
+      <workItem from="1588035750515" duration="114000" />
+      <workItem from="1588036681184" duration="2042000" />
+      <workItem from="1588040382683" duration="7693000" />
     </task>
     <task id="LOCAL-00001" summary="add double link list">
       <created>1571230224163</created>
@@ -326,36 +262,8 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1974" y="-2" width="1874" height="1096" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.1736527" />
-      <window_info id="Structure" order="1" sideWeight="0.50078005" side_tool="true" weight="0.17527473" />
-      <window_info id="Favorites" order="2" sideWeight="0.50078005" side_tool="true" weight="0.17527473" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21489362" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40106383" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287234" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287234" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49944994" visible="true" weight="0.2861702" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50055003" side_tool="true" weight="0.34415585" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3287234" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -364,20 +272,6 @@
           <value>
             <State>
               <option name="LONG_EDGES_VISIBLE" value="true" />
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
             </State>
           </value>
         </entry>
@@ -397,6 +291,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add double link list" />
@@ -406,118 +301,58 @@
     <MESSAGE value="add binary_tree" />
     <option name="LAST_COMMIT_MESSAGE" value="add binary_tree" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/single.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/1/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/1.py" />
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/1.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-633046811/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="4163" column="10" selection-start-line="4159" selection-start-column="7" selection-end-line="4163" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basis/single_link_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basis/queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basis/single_cycle_link_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basis/double_link_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basis/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/test.py" />
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/shell_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/select_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="51" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/quick_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basis/double_ended_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/insert_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/merge_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithm/bubble_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Search_Algorithm/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Search_Algorithm/binary_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="778" y="294" key="FileChooserDialogImpl" timestamp="1587712702655">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="778" y="294" key="FileChooserDialogImpl/77.0.1843.1080@77.0.1843.1080" timestamp="1587712702655" />
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom" timestamp="1588081927279">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927279" />
+    <state width="1800" height="295" key="GridCell.Tab.0.center" timestamp="1588081927278">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.center/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927278" />
+    <state width="1800" height="295" key="GridCell.Tab.0.left" timestamp="1588081927278">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.left/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927278" />
+    <state width="1800" height="295" key="GridCell.Tab.0.right" timestamp="1588081927278">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.right/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927278" />
+    <state width="1800" height="365" key="GridCell.Tab.1.bottom" timestamp="1587889265872">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="365" key="GridCell.Tab.1.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1587889265872" />
+    <state width="1800" height="365" key="GridCell.Tab.1.center" timestamp="1587889265872">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="365" key="GridCell.Tab.1.center/77.0.1843.1080@77.0.1843.1080" timestamp="1587889265872" />
+    <state width="1800" height="365" key="GridCell.Tab.1.left" timestamp="1587889265872">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="365" key="GridCell.Tab.1.left/77.0.1843.1080@77.0.1843.1080" timestamp="1587889265872" />
+    <state width="1800" height="365" key="GridCell.Tab.1.right" timestamp="1587889265872">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="365" key="GridCell.Tab.1.right/77.0.1843.1080@77.0.1843.1080" timestamp="1587889265872" />
+    <state x="546" y="272" key="SettingsEditor" timestamp="1587866826102">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="546" y="272" key="SettingsEditor/77.0.1843.1080@77.0.1843.1080" timestamp="1587866826102" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_Structure$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1587907109263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$single_link_list.coverage" NAME="single_link_list Coverage Results" MODIFIED="1587716841760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basis" />
+    <SUITE FILE_PATH="coverage/Data_Structure$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1587882577066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1588040466633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$11.coverage" NAME="11 Coverage Results" MODIFIED="1587908953609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$test.coverage" NAME="test Coverage Results" MODIFIED="1587906482882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$select_sort.coverage" NAME="select_sort Coverage Results" MODIFIED="1587863633955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$queue.coverage" NAME="queue Coverage Results" MODIFIED="1587906453434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basis" />
+    <SUITE FILE_PATH="coverage/Data_Structure$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1588081757841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
   </component>
   <component name="masterDetails">
     <states>

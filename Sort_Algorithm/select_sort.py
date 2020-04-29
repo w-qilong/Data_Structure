@@ -11,7 +11,8 @@ def selection_sort(alist):
         # 从i+1位置到末尾选择出最小的数据
         for j in range(i + 1, len(alist)):
             if alist[j] < alist[min_index]:
-                alist[j], alist[min_index] = alist[min_index], alist[j]
+                min_index = j
+        alist[i], alist[min_index] = alist[min_index], alist[i]
     return alist
 
 

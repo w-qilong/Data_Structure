@@ -2,114 +2,78 @@
 # _*_coding:utf-8 _*_
 # @Time    :2019/10/21 9:39
 # @Author  :WuQilong
-# @FileName:binary_tree.py 二叉树的实现，遍历，求深度等
+# @FileName:binary_tree.py 二叉树的实现，遍历，求深度等,以下实现为完全二叉树
 
 
 class Node(object):
-    """class BiNode provide interface to set up a BiTree Node and to interact"""
+    """节点类"""
 
-    def __init__(self, element=None, left=None, right=None):
-        """set up a node """
-        self.element = element
-        self.left = left
-        self.right = right
-
-    def get_element(self):
-        """return node.element"""
-        return self.element
-
-    def dict_form(self):
-        """return node as dict form"""
-        dict_set = {
-            "element": self.element,
-            "left": self.left,
-            "right": self.right,
-        }
-        return dict_set
-
-    def __str__(self):
-        """when print a node , print it's element"""
-        return str(self.element)
+    def __init__(self, elem):
+        self.elem = elem
+        self.lchild = None
+        self.rchild = None
 
 
 class Tree(object):
-    """class BiTree provide interface to set up a BiTree and to interact"""
+    """树类"""
 
-    def __init__(self, tree_node=None):
-        """set up BiTree from BiNode and empty BiTree when nothing is passed"""
-        self.root = tree_node
+    def __init__(self, root=None):
+        self.root = root
 
-    def add_node_in_order(self, element):
-        """add a node to existent BiTree in order"""
-        node = Node(element)
-
+    def add(self, elem):
+        """为树添加节点"""
+        node = Node(elem)
+        # 如果树是空的，则对根节点赋值
         if self.root is None:
             self.root = node
         else:
-            node_queue = list()
-            node_queue.append(self.root)
-            while len(node_queue):
-                q_node = node_queue.pop(0)
-                if q_node.left is None:
-                    q_node.left = node
+            queue = [self.root]
+            # 对已有的节点进行层次遍历
+            while queue:
+                # 弹出队列的第一个元素
+                cur = queue.pop(0)
+                if cur.lchild is None:
+                    cur.lchild = node
                     break
-                elif q_node.right is None:
-                    q_node.right = node
+                elif cur.rchild is None:
+                    cur.rchild = node
                     break
                 else:
-                    node_queue.append(q_node.left)
-                    node_queue.append(q_node.right)
+                    # 如果左右子树都不为空，加入队列继续判断
+                    queue.append(cur.lchild)
+                    queue.append(cur.rchild)
 
-    def get_depth(self):
-        """method of getting depth of BiTree"""
-        if self.root is None:
-            return 0
-        else:
-            node_queue = list()
-            node_queue.append(self.root)
-            depth = 0
-            while len(node_queue):
-                q_len = len(node_queue)
-                while q_len:
-                    q_node = node_queue.pop(0)
-                    q_len = q_len - 1
-                    if q_node.left is not None:
-                        node_queue.append(q_node.left)
-                    if q_node.right is not None:
-                        node_queue.append(q_node.right)
-                depth = depth + 1
-            return depth
+    def preorder(self, root):
+        """递归实现先序遍历"""
+        if root is None:
+            return
+        print(root.elem, end=" ")
+        self.preorder(root.lchild)
+        self.preorder(root.rchild)
 
-    def pre_traversal(self):
-        """method of traversing BiTree in pre-order"""
-        if self.root is None:
-            return None
-        else:
-            node_stack = list()
-            output_list = list()
-            node = self.root
-            while node is not None or len(node_stack):
-                # if node is None which means it comes from a leaf-node' right,
-                # pop the stack and get it's right node.
-                # continue the circulating like this
-                if node is None:
-                    node = node_stack.pop().right
-                    continue
-                #  save the front node and go next when left node exists
-                while node.left is not None:
-                    node_stack.append(node)
-                    output_list.append(node.get_element())
-                    node = node.left
-                output_list.append(node.get_element())
-                node = node.right
-        return output_list
+    def inorder(self, root):
+        """递归实现中序遍历"""
+        if root is None:
+            return
+        self.inorder(root.lchild)
+        print(root.elem, end=" ")
+        self.inorder(root.rchild)
+
+    def postorder(self, root):
+        """递归实现后续遍历"""
+        if root is None:
+            return
+        self.postorder(root.lchild)
+        self.postorder(root.rchild)
+        print(root.elem, end=" ")
 
 
 if __name__ == '__main__':
-    node = Node(5)
-    print(node.dict_form())
     tree = Tree()
-    for i in range(5):
-        tree.add_node_in_order(i)
-    print(tree.get_depth())
-    print(tree.pre_traversal())
+    for i in range(10):
+        tree.add(i)
+    tree.preorder(tree.root)
+    print()
+    tree.inorder(tree.root)
+    print()
+    tree.postorder(tree.root)
