@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Data_Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Structure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basis/single_link_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basis/single_link_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search_Algorithm/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search_Algorithm/binary_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort_Algorithm/select_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort_Algorithm/select_sort.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,6 +208,7 @@
       <workItem from="1588035750515" duration="114000" />
       <workItem from="1588036681184" duration="2042000" />
       <workItem from="1588040382683" duration="7693000" />
+      <workItem from="1588122375633" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="add double link list">
       <created>1571230224163</created>
