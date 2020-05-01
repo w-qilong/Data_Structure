@@ -26,7 +26,8 @@ def quick_sort(nums, start, end):
 
 
 nums = []
-for i in range(10): nums.append(random.randint(1, 10))
+for i in range(10):
+    nums.append(random.randint(1, 10))
 print("the raw nums is:", nums)
 quick_sort(nums, 0, len(nums) - 1)
 print("the sorted nums is:", nums)

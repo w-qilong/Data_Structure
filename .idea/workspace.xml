@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="" />
+    <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort_Algorithm/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort_Algorithm/quick_sort.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +72,7 @@
       <recent name="D:\PythonProject\Data_Structure\Basis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.binary_tree">
+  <component name="RunManager" selected="Python.quick_sort">
     <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="insert_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +152,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/insert_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,7 +174,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort_Algorithm/quick_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quick_sort" />
+        <item itemvalue="Python.insert_sort" />
         <item itemvalue="Python.binary_tree" />
         <item itemvalue="Python.binary_search" />
         <item itemvalue="Python.11" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +211,9 @@
       <workItem from="1588035750515" duration="114000" />
       <workItem from="1588036681184" duration="2042000" />
       <workItem from="1588040382683" duration="7693000" />
-      <workItem from="1588122375633" duration="254000" />
+      <workItem from="1588122375633" duration="1665000" />
+      <workItem from="1588233921140" duration="3034000" />
+      <workItem from="1588293505022" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="add double link list">
       <created>1571230224163</created>
@@ -299,22 +304,22 @@
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
     <state x="778" y="294" key="FileChooserDialogImpl/77.0.1843.1080@77.0.1843.1080" timestamp="1587712702655" />
-    <state width="1800" height="295" key="GridCell.Tab.0.bottom" timestamp="1588081927279">
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom" timestamp="1588242096655">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927279" />
-    <state width="1800" height="295" key="GridCell.Tab.0.center" timestamp="1588081927278">
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1588242096655" />
+    <state width="1800" height="295" key="GridCell.Tab.0.center" timestamp="1588242096655">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.center/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927278" />
-    <state width="1800" height="295" key="GridCell.Tab.0.left" timestamp="1588081927278">
+    <state width="1800" height="295" key="GridCell.Tab.0.center/77.0.1843.1080@77.0.1843.1080" timestamp="1588242096655" />
+    <state width="1800" height="295" key="GridCell.Tab.0.left" timestamp="1588242096655">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.left/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927278" />
-    <state width="1800" height="295" key="GridCell.Tab.0.right" timestamp="1588081927278">
+    <state width="1800" height="295" key="GridCell.Tab.0.left/77.0.1843.1080@77.0.1843.1080" timestamp="1588242096655" />
+    <state width="1800" height="295" key="GridCell.Tab.0.right" timestamp="1588242096655">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.right/77.0.1843.1080@77.0.1843.1080" timestamp="1588081927278" />
+    <state width="1800" height="295" key="GridCell.Tab.0.right/77.0.1843.1080@77.0.1843.1080" timestamp="1588242096655" />
     <state width="1800" height="365" key="GridCell.Tab.1.bottom" timestamp="1587889265872">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
@@ -339,13 +344,14 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structure$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1587907109263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$single_link_list.coverage" NAME="single_link_list Coverage Results" MODIFIED="1587716841760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basis" />
-    <SUITE FILE_PATH="coverage/Data_Structure$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1587882577066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1588234302868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1588040466633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$11.coverage" NAME="11 Coverage Results" MODIFIED="1587908953609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$test.coverage" NAME="test Coverage Results" MODIFIED="1587906482882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$select_sort.coverage" NAME="select_sort Coverage Results" MODIFIED="1587863633955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$queue.coverage" NAME="queue Coverage Results" MODIFIED="1587906453434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basis" />
     <SUITE FILE_PATH="coverage/Data_Structure$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1588081757841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1588293560739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
   </component>
   <component name="masterDetails">
     <states>
