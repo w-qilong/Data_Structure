@@ -14,6 +14,11 @@ class Node(object):
         self.rchild = None
 
 
+pre = []
+tin = []
+post = []
+
+
 class Tree(object):
     """树类"""
 
@@ -47,6 +52,7 @@ class Tree(object):
         """递归实现先序遍历"""
         if root is None:
             return
+        pre.append(root.elem)
         print(root.elem, end=" ")
         self.preorder(root.lchild)
         self.preorder(root.rchild)
@@ -56,6 +62,7 @@ class Tree(object):
         if root is None:
             return
         self.inorder(root.lchild)
+        tin.append(root.elem)
         print(root.elem, end=" ")
         self.inorder(root.rchild)
 
@@ -65,7 +72,21 @@ class Tree(object):
             return
         self.postorder(root.lchild)
         self.postorder(root.rchild)
+        post.append(root.elem)
         print(root.elem, end=" ")
+
+    # 根据前序、中序求后续遍历
+    def reConstructTree(self, pre, tin):
+        """根据前序中序重构树,前提是假设树节点中的值都是不重复的"""
+        if len(pre) == 0:
+            return None
+        else:
+
+            root = Node(pre[0])
+            root_index_in_tin = tin.index(pre[0])
+            root.lchild = self.reConstructTree(pre[1:root_index_in_tin + 1], tin[0:root_index_in_tin])
+            root.rchild = self.reConstructTree(pre[root_index_in_tin + 1:], tin[root_index_in_tin + 1:])
+            return root
 
 
 if __name__ == '__main__':
@@ -77,3 +98,10 @@ if __name__ == '__main__':
     tree.inorder(tree.root)
     print()
     tree.postorder(tree.root)
+    print()
+    print(pre)
+    print(tin)
+    print(post)
+    root = tree.reConstructTree(pre, tin)
+    print(root)
+    tree.postorder(root)

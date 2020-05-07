@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8c51c4-0e8a-4f83-bbed-dea4c2cf9333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leecode/字符串子串最大长度.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort_Algorithm/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort_Algorithm/quick_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <recent name="D:\PythonProject\Data_Structure\Basis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.quick_sort">
+  <component name="RunManager" selected="Python.binary_tree">
     <configuration name="字符串子串最大长度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,6 +184,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_Algorithm/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_Algorithm/binary_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="insert_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,8 +274,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binary_tree" />
+        <item itemvalue="Python.binary_search" />
         <item itemvalue="Python.quick_sort" />
-        <item itemvalue="Python.递归的使用" />
         <item itemvalue="Python.字符串子串最大长度" />
         <item itemvalue="Python.insert_sort" />
       </list>
@@ -262,7 +306,10 @@
       <workItem from="1588399594796" duration="10646000" />
       <workItem from="1588555161239" duration="2938000" />
       <workItem from="1588587766666" duration="3235000" />
-      <workItem from="1588641214884" duration="3747000" />
+      <workItem from="1588641214884" duration="5818000" />
+      <workItem from="1588732799734" duration="3924000" />
+      <workItem from="1588754611546" duration="16000" />
+      <workItem from="1588815600354" duration="4903000" />
     </task>
     <task id="LOCAL-00001" summary="add double link list">
       <created>1571230224163</created>
@@ -357,42 +404,46 @@
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
     <state x="778" y="294" key="FileChooserDialogImpl/77.0.1843.1080@77.0.1843.1080" timestamp="1587712702655" />
-    <state width="1800" height="295" key="GridCell.Tab.0.bottom" timestamp="1588645747195">
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom" timestamp="1588821213586">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1588645747195" />
-    <state width="1800" height="295" key="GridCell.Tab.0.center" timestamp="1588645747195">
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1588821213586" />
+    <state width="1800" height="295" key="GridCell.Tab.0.center" timestamp="1588821213586">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.center/77.0.1843.1080@77.0.1843.1080" timestamp="1588645747195" />
-    <state width="1800" height="295" key="GridCell.Tab.0.left" timestamp="1588645747195">
+    <state width="1800" height="295" key="GridCell.Tab.0.center/77.0.1843.1080@77.0.1843.1080" timestamp="1588821213586" />
+    <state width="1800" height="295" key="GridCell.Tab.0.left" timestamp="1588821213586">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.left/77.0.1843.1080@77.0.1843.1080" timestamp="1588645747195" />
-    <state width="1800" height="295" key="GridCell.Tab.0.right" timestamp="1588645747195">
+    <state width="1800" height="295" key="GridCell.Tab.0.left/77.0.1843.1080@77.0.1843.1080" timestamp="1588821213586" />
+    <state width="1800" height="295" key="GridCell.Tab.0.right" timestamp="1588821213586">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="295" key="GridCell.Tab.0.right/77.0.1843.1080@77.0.1843.1080" timestamp="1588645747195" />
-    <state width="1800" height="365" key="GridCell.Tab.1.bottom" timestamp="1588430289913">
+    <state width="1800" height="295" key="GridCell.Tab.0.right/77.0.1843.1080@77.0.1843.1080" timestamp="1588821213586" />
+    <state width="1800" height="365" key="GridCell.Tab.1.bottom" timestamp="1588819570976">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="365" key="GridCell.Tab.1.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1588430289913" />
-    <state width="1800" height="365" key="GridCell.Tab.1.center" timestamp="1588430289913">
+    <state width="1800" height="365" key="GridCell.Tab.1.bottom/77.0.1843.1080@77.0.1843.1080" timestamp="1588819570976" />
+    <state width="1800" height="365" key="GridCell.Tab.1.center" timestamp="1588819570976">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="365" key="GridCell.Tab.1.center/77.0.1843.1080@77.0.1843.1080" timestamp="1588430289913" />
-    <state width="1800" height="365" key="GridCell.Tab.1.left" timestamp="1588430289913">
+    <state width="1800" height="365" key="GridCell.Tab.1.center/77.0.1843.1080@77.0.1843.1080" timestamp="1588819570976" />
+    <state width="1800" height="365" key="GridCell.Tab.1.left" timestamp="1588819570976">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="365" key="GridCell.Tab.1.left/77.0.1843.1080@77.0.1843.1080" timestamp="1588430289913" />
-    <state width="1800" height="365" key="GridCell.Tab.1.right" timestamp="1588430289913">
+    <state width="1800" height="365" key="GridCell.Tab.1.left/77.0.1843.1080@77.0.1843.1080" timestamp="1588819570976" />
+    <state width="1800" height="365" key="GridCell.Tab.1.right" timestamp="1588819570976">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1800" height="365" key="GridCell.Tab.1.right/77.0.1843.1080@77.0.1843.1080" timestamp="1588430289913" />
+    <state width="1800" height="365" key="GridCell.Tab.1.right/77.0.1843.1080@77.0.1843.1080" timestamp="1588819570976" />
     <state x="546" y="272" key="SettingsEditor" timestamp="1587866826102">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
     <state x="546" y="272" key="SettingsEditor/77.0.1843.1080@77.0.1843.1080" timestamp="1587866826102" />
+    <state x="590" y="273" key="Vcs.Push.Dialog.v2" timestamp="1588646093789">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="590" y="273" key="Vcs.Push.Dialog.v2/77.0.1843.1080@77.0.1843.1080" timestamp="1588646093789" />
     <state x="839" y="311" key="refactoring.ChangeSignatureDialog" timestamp="1588406858990">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
@@ -402,14 +453,14 @@
     <SUITE FILE_PATH="coverage/Data_Structure$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1587907109263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$single_link_list.coverage" NAME="single_link_list Coverage Results" MODIFIED="1587716841760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basis" />
     <SUITE FILE_PATH="coverage/Data_Structure$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1588234302868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
-    <SUITE FILE_PATH="coverage/Data_Structure$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1588040466633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1588819950646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$11.coverage" NAME="11 Coverage Results" MODIFIED="1587908953609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$test.coverage" NAME="test Coverage Results" MODIFIED="1588406297569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$select_sort.coverage" NAME="select_sort Coverage Results" MODIFIED="1587863633955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$queue.coverage" NAME="queue Coverage Results" MODIFIED="1587906453434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basis" />
-    <SUITE FILE_PATH="coverage/Data_Structure$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1588081757841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1588821213586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search_Algorithm" />
     <SUITE FILE_PATH="coverage/Data_Structure$.coverage" NAME="计算数组的和 Coverage Results" MODIFIED="1588641846335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leecode" />
-    <SUITE FILE_PATH="coverage/Data_Structure$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1588645747183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
+    <SUITE FILE_PATH="coverage/Data_Structure$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1588815605352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort_Algorithm" />
   </component>
   <component name="masterDetails">
     <states>
