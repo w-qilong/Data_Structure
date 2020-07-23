@@ -107,11 +107,26 @@ class SingleLinkList(object):
                 pre = cur
                 cur = cur.next
 
+    def reverseList(self):
+        # 实现链表反向
+        head = self.__head
+        pre = None
+        while head:
+            next = head.next  # 保存当前节点的下一个节点
+            head.next = pre  #  使头结点指向pre节点
+            pre = head # 使pre指向头节点，作为下一次的尾结点
+            head = next # 使头节点指向
+        return pre
+
 
 if __name__ == '__main__':
     single_list = SingleLinkList()
     for i in range(1, 4):
         single_list.append(i)
     single_list.travel()
-    single_list.insert(1, 5)
-    single_list.travel()
+    # single_list.insert(1, 5)
+    # single_list.travel()
+    list = single_list.reverseList()
+    while list:
+        print(list.elem)
+        list = list.next

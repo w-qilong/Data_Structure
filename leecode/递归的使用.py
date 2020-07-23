@@ -31,7 +31,7 @@ def list_len(alist):
 
 # 使用递归找出列表中最大的数
 #
-# def list_max(alist):
+
 
 
 if __name__ == '__main__':
